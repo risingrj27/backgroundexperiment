@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    color: white;
+    background-color: black;
+}
+
+header::before{
+    background: url('https://source.unsplash.com/user/erondu/1600x900') no-repeat center center/cover;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.navigation{
+    display: flex;
+}
+
+.navigation li{
+    list-style: none;
+    margin: 30px 10px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.navigation li a{
+    text-decoration: none;
+    color: white;
+    padding: 4px 10px;
+}
+
+.navigation li a:hover{
+    border: 1px solid wheat;
+    background-color: rgba(114, 119, 85, 0.37);
+    color: rgba(255, 138, 22, 0.712);
+}
+
+.define{
+    /* border: 2px solid red; */
+    padding: 5px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.define h2{
+    font-size: 40px;
+}
